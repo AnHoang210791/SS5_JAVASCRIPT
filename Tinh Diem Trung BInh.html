@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh Diem Trung Binh</title>
+</head>
+<body>
+    <script>
+    let math = Number(prompt("Nhập điểm toán"));
+    let Eng = Number(prompt("Nhập điểm Anh"));
+    let Liter = Number(prompt("Nhập điểm Văn"));
+    alert(math)
+    alert(Eng)
+    alert(Liter)
+        let Ave = (math+Eng+Liter)/3
+        console.log("Diem Trung Binh= "+Ave)
+        alert("Diem Trung Binh= "+Ave)
+    if (Ave>=8){
+        console.log("Ban xep loai gioi")
+        alert("Ban xep loai gioi")
+        console.log("Ban xep loai gioi")
+    }
+        else if (Ave<8 && Ave>=6.5){
+            console.log("Ban xep loai kha")
+            alert("Ban xep loai kha")
+            console.log("Ban xep loai kha")
+    }
+    else if (Ave<6.5 && Ave>=5){
+        console.log("Ban xep loai trung binh")
+        alert("Ban xep loai trung binh")
+        console.log("Ban xep trung binh")
+    }
+    else if (Ave<5){
+        console.log("Ban xep loai Yeu")
+        alert("Ban xep loai Yeu")
+        console.log("Ban xep Yeu")
+    }
+    </script>
+</body>
+</html>
